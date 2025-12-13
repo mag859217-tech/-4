@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Круг + Карточки с анимацией</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #b90505;
+      color: #fff;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    .circle-container {
+      text-align: center;
+      margin: 30px auto 50px;
+    }
+
+    .pulsing-rotating-circle {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 auto;
+      background: conic-gradient(
+        from 0deg,
+        #ff0000, #ff8000, #ffff00, #80ff00,
+        #00ff00, #00ff80, #00ffff, #0080ff,
+        #0000ff, #8000ff, #ff00ff, #ff0080,
+        #ff0000
+      );
+      background-size: 300% 300%;
+      animation:
+        pulse 2s ease-in-out infinite,
+        rotate 6s linear infinite,
+        hueShift 8s linear infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+    }
+
+    @keyframes rotate {
+      0% { transform: scale(1) rotate(0deg); }
+      50% { transform: scale(1.3) rotate(180deg); }
+      100% { transform: scale(1) rotate(360deg); }
+    }
+
+    @keyframes hueShift {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2.2rem;
+      margin: 40px 0 30px;
+      font-weight: 700;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 30px;
+      justify-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+
+    .product-card {
+      width: 100%;
+      max-width: 280px;
+      background: #2a0405;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      position: relative;
+      border: 1px solid #4a0a0a;
+    }
+
+    .product-card:hover {
+      transform: translateY(-12px);
+      z-index: 10;
+    }
+
+    .card-image {
+      width: 100%;
+      height: 160px;
+      background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      color: #222;
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .card-desc {
+      font-size: 0.9rem;
+      color: #ddd;
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+
+    .card-price {
+      font-size: 1.5rem;
+      color: #ffd700;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 11px 26px;
+      background: #000;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+
+    .btn:hover {
+      background: #320809;
+      transform: translateY(-2px);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    @media (max-width: 600px) {
+      .products-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-title {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circle-container">
+    <div class="pulsing-rotating-circle"></div>
+  </div>
+
+  <h1 class="section-title">Наши товары</h1>
+
+  <div class="products-grid">
+    <div class="product-card">
+      <div class="card-image">📱</div>
+      <div class="card-content">
+        <h3 class="card-title">iPhone 17</h3>
+        <p class="card-desc">Флагманский смартфон с OLED и 5G</p>
+        <div class="card-price">1990$</div>
+        <button class="btn">В корзину</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-image">🎧</div>
+      <div class="card-content">
+        <h3 class="card-title">Наушники Pro</h3>
+        <p class="card-desc">Беспроводные с шумоподавлением</p>
+        <div class="card-price">19.000 ₽</div>
+        <button class="btn">В корзину</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-image">⌚</div>
+      <div class="card-content">
+        <h3 class="card-title">Умные часы</h3>
+        <p class="card-desc">С пульсометром и GPS</p>
+        <div class="card-price">14 990 ₽</div>
+        <button class="btn">В корзину</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-image">🔋</div>
+      <div class="card-content">
+        <h3 class="card-title">Power Bank</h3>
+        <p class="card-desc">20 000 мА·ч, быстрая зарядка</p>
+        <div class="card-price">2 990 ₽</div>
+        <button class="btn">В корзину</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
