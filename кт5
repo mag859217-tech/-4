@@ -1,216 +1,130 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Круг + Карточки с анимацией</title>
+  <meta charset="UTF-8" />
+  <title>ZetZet</title>
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #b90505;
-      color: #fff;
-      padding: 20px;
-      min-height: 100vh;
-    }
-
-    .circle-container {
+      font-family: Arial, sans-serif;
+      background: #ce1f0c;
       text-align: center;
-      margin: 30px auto 50px;
+      padding: 30px;
     }
 
-    .pulsing-rotating-circle {
-      width: 150px;
-      height: 150px;
+    h1 {
+      margin: 40px;
+    }
+
+    .circle {
+      border: 5px dashed black;
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
-      margin: 0 auto;
-      background: conic-gradient(
-        from 0deg,
-        #ff0000, #ff8000, #ffff00, #80ff00,
-        #00ff00, #00ff80, #00ffff, #0080ff,
-        #0000ff, #8000ff, #ff00ff, #ff0080,
-        #ff0000
-      );
-      background-size: 300% 300%;
+      margin: 0 auto 30px;
       animation:
-        pulse 2s ease-in-out infinite,
-        rotate 6s linear infinite,
-        hueShift 8s linear infinite;
+        pulse 2s infinite,
+        spin 5s linear infinite,
+        changeColor 4s infinite;
     }
 
     @keyframes pulse {
       0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.3); }
+      50%      { transform: scale(1.2); }
     }
 
-    @keyframes rotate {
-      0% { transform: scale(1) rotate(0deg); }
-      50% { transform: scale(1.3) rotate(180deg); }
-      100% { transform: scale(1) rotate(360deg); }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
     }
 
-    @keyframes hueShift {
-      0% { filter: hue-rotate(0deg); }
-      100% { filter: hue-rotate(360deg); }
+    @keyframes changeColor {
+      0%   { background-color: #cc1c1c; }
+      25%  { background-color: #144eb2; }
+      50%  { background-color: #10b0d3; }
+      75%  { background-color: #099d44; }
+      100% { background-color: #ff6bd8; }
     }
 
-    .section-title {
-      text-align: center;
-      font-size: 2.2rem;
-      margin: 40px 0 30px;
-      font-weight: 700;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
-    }
-
-    .products-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    .container {
+      display: flex;
+      justify-content: center;
       gap: 30px;
-      justify-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 10px;
+      flex-wrap: wrap;
     }
 
-    .product-card {
-      width: 100%;
-      max-width: 280px;
-      background: #2a0405;
-      border-radius: 16px;
-      overflow: hidden;
-      transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-      position: relative;
-      border: 1px solid #4a0a0a;
+    .card {
+      background: white;
+      width: 250px;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 380px;
     }
 
-    .product-card:hover {
-      transform: translateY(-12px);
-      z-index: 10;
+    .card:hover {
+      transform: translateY(-10px);
+      transition: transform 1s;
     }
 
-    .card-image {
+    .card p {
+      flex-grow: 1;
+      margin: 10px 0;
+    }
+
+    .card img {
       width: 100%;
       height: 160px;
-      background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 42px;
-      color: #222;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
     }
 
-    .card-content {
-      padding: 20px;
-      text-align: center;
-    }
-
-    .card-title {
-      font-size: 1.3rem;
-      margin-bottom: 8px;
-      font-weight: 600;
-    }
-
-    .card-desc {
-      font-size: 0.9rem;
-      color: #ddd;
-      margin-bottom: 12px;
-      line-height: 1.5;
-    }
-
-    .card-price {
-      font-size: 1.5rem;
-      color: #ffd700;
-      font-weight: 700;
-      margin-bottom: 16px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 11px 26px;
-      background: #000;
-      color: white;
+    .card button {
+      margin-top: 10px;
+      padding: 8px 16px;
       border: none;
-      border-radius: 50px;
-      font-size: 0.95rem;
-      font-weight: 600;
+      background: #0a3179;
+      color: white;
+      border-radius: 5px;
       cursor: pointer;
-      transition: all 0.3s ease;
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
+      transition: all 0.2s;
     }
 
-    .btn:hover {
-      background: #320809;
-      transform: translateY(-2px);
-    }
-
-    .btn:active {
-      transform: translateY(0);
-    }
-
-    @media (max-width: 600px) {
-      .products-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .section-title {
-        font-size: 1.8rem;
-      }
+    .card button:hover {
+      background: #ff6b6b;
+      transform: scale(1.1);
     }
   </style>
 </head>
 <body>
 
-  <div class="circle-container">
-    <div class="pulsing-rotating-circle"></div>
-  </div>
+  <div class="circle"></div>
 
-  <h1 class="section-title">Наши товары</h1>
+  <h1>ZetZet</h1>
 
-  <div class="products-grid">
-    <div class="product-card">
-      <div class="card-image">📱</div>
-      <div class="card-content">
-        <h3 class="card-title">iPhone 17</h3>
-        <p class="card-desc">Флагманский смартфон с OLED и 5G</p>
-        <div class="card-price">1990$</div>
-        <button class="btn">В корзину</button>
-      </div>
+  <div class="container">
+    <div class="card">
+      <img src="https://cdn1.technopark.ru/technopark/photos_resized/article_banner/855_556/1009_3/1_1009_3.jpg" alt="Товар 1">
+      <h3>iPhone 17 Pro</h3>
+      <p>Apple iPhone 17 Pro — это ультрасовременный смартфон, в котором объединены передовые технологии и безупречный дизайн. </p>
+      <button>Купить</button>
     </div>
 
-    <div class="product-card">
-      <div class="card-image">🎧</div>
-      <div class="card-content">
-        <h3 class="card-title">Наушники Pro</h3>
-        <p class="card-desc">Беспроводные с шумоподавлением</p>
-        <div class="card-price">19.000 ₽</div>
-        <button class="btn">В корзину</button>
-      </div>
+    <div class="card">
+      <img src="https://cdn1.technopark.ru/technopark/photos_resized/article_banner/855_556/1009_3/1_1009_3.jpg" alt="Товар 2">
+      <h3>iPhone 17 Pro Max</h3>
+      <p>Apple iPhone 17 Pro Max (eSIM) — это флагманский смартфон нового поколения с великолепным дисплеем.
+</p>
+      <button>Купить</button>
     </div>
 
-    <div class="product-card">
-      <div class="card-image">⌚</div>
-      <div class="card-content">
-        <h3 class="card-title">Умные часы</h3>
-        <p class="card-desc">С пульсометром и GPS</p>
-        <div class="card-price">14 990 ₽</div>
-        <button class="btn">В корзину</button>
-      </div>
-    </div>
-
-    <div class="product-card">
-      <div class="card-image">🔋</div>
-      <div class="card-content">
-        <h3 class="card-title">Power Bank</h3>
-        <p class="card-desc">20 000 мА·ч, быстрая зарядка</p>
-        <div class="card-price">2 990 ₽</div>
-        <button class="btn">В корзину</button>
-      </div>
+    <div class="card">
+      <img src="https://avatars.mds.yandex.net/get-goods_pic/14691608/hat30e16633a86e48186f2f5f344bf7523d/600x600" alt="Товар 3">
+      <h3>iPhone 17</h3>
+      <p>Apple iPhone 17 (eSIM) — это современный флагманский смартфон с ярким 6.3" дисплеем</p>
+      <button>Купить</button>
     </div>
   </div>
 
