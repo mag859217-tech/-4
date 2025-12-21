@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGMA</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="header">
+        <div class="logo">SIGMA KILLERS 💀💀💀</div>
+        <div class="blood">🩸</div>
+    </div>
+    
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About them</a>
+        <a href="#">My contact</a>
+    </div>
+    
+    <div class="banner">
+        <h1>THE BEST SIGMA KILLERS</h1>
+    </div>
+    
+    <div class="small-images">
+        <img src="https://avatars.mds.yandex.net/i?id=418d388226f5f46b3b5278f1690828bd_l-5147303-images-thumbs&n=13" alt="Sigma 1" class="small-img">
+        <img src="https://i.pinimg.com/736x/c3/41/28/c34128696a1ae4e7e91713e90597c7bd.jpg" alt="Sigma 2" class="small-img">
+        <img src="https://i.pinimg.com/736x/de/0d/63/de0d6311c0bf05ad5105bfbb6f95c83f.jpg" alt="Sigma 3" class="small-img">
+        <img src="https://avatars.mds.yandex.net/i?id=808e3a81c9ef893169c089934d72de14dba82082-12997438-images-thumbs&n=13" alt="Sigma 4" class="small-img">
+    </div>
+
+    <div class="services-grid">
+        <div class="service-box">
+            <h3>1 DEXTER MORGAN🩸💀🪚</h3>
+        </div>
+        <div class="service-box">
+            <h3>2 JOE GOLDBERG🧢🔪📚</h3>
+        </div>
+        <div class="service-box">
+            <h3>3 BRAIN MOSER🩸🧊👨🏻‍⚕️</h3>
+        </div>
+        <div class="service-box">
+            <h3>4 LIGHT YAGAMI📓👑🍎</h3>
+        </div>
+    </div>
+    
+    <div class="content-grid">
+        <div class="SIGMA 1">
+            <h2>ABOUT 1 </h2>
+            <p>Он действует в одиночку, следует строгому личному кодексу, сохраняет холодную рациональность и эмоциональную отстранённость, методично устраняя цели по своей системе, вне общественных норм.</p>
+        </div>
+        
+        <div class="SIGMA 2">
+            <h2>ABOUT 2</h2>
+            <p>Джо Голдберг — сигма-убийца, потому что действует автономно по собственному моральному кодексу, сочетая интеллектуальное превосходство, холодную манипулятивность и романтизированный нарциссизм, системно устраняя препятствия на пути к своей искажённой версии идеальной любви вне социальных конвенций.</p>
+
+        </div>
+    </div>
+    
+    <div class="bottom-grid">
+        <div class="SIGMA 3">
+            <h2>ABOUT 3</h2>
+            <p>Брайан Мозер — сигма-убийца, потому что действует в абсолютном одиночестве, отвергает любые социальные рамки и моральные кодексы, следуя лишь собственному эстетизированному видению насилия, и видит себя высшим существом, создающим искусство из смерти, полностью автономным от общества и его законов.</p>
+        </div>
+        
+        <div class="SIGMA 4">
+            <h2>ABOUT 4</h2>
+            <p>Лайт Ягами — сигма-убийца, потому что действует как верховный судья в одиночку, используя интеллектуальное превосходство и деантропологизирующую силу Тетради смерти для системного устранения тех, кого считает недостойными, создавая новый мировой порядок по своему личному утопическому проекту вне любых социальных, юридических и моральных норм.</p>
+        </div>
+        
+        <div class="SIGMA 5">
+            <h2>Они все сигмы убийцы</h2>
+            <p>Это сигмы убийцы которые убивали во благо плохих людей но они психопаты у каждого разные мотивы зачем они это делали хз что еще написать</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+Css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 5px solid #6e1212;
+    background-color: white;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.blood {
+    font-size: 32px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px 40px;
+    border-bottom: 5px solid #6e1212;
+    background-color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: #6e1212;
+}
+
+
+.banner {
+    background-color: white;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #6e1212;
+}
+
+.small-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.small-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #6e1212;
+    border-radius: 5px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 40px;
+}
+
+.service-box {
+    background-color: rgb(0, 0, 0);
+    padding: 30px 20px;
+    text-align: center;
+    border: 5px solid #820606;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #800c0c;
+    font-size: 20px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 40px;
+}
+
+.content-box {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 40px;
+}
+
+.SIGMA
+ {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border: 5px solid #570303;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #800c0c;
+    font-size: 24px;
+}
+
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #fff7f7;
+}
+
+.date {
+    color: #888;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
