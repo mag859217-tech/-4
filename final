@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Sigma</title>
+</head>
+<body>
+    
+    <div id="mikami-page" class="page"></div>
+    <div class="mikami">
+        <h1>Mikami Teru</h1>
+        <h2>Персонажи</h2>
+            <input type="text" placeholder="Найти" class="search">
+            <a class="a1" href="#yagami-page2">Yagami Light</a>
+            <a class="a2" href="#riyugi-page3">L</a>
+            <a class="a3" href="#n-page4">Near</a>
+            <a class="a4" href="#Onas_page5">О нас</a>
+            <a class="a8" href="#mikami-page">Mikami Teru</a>
+        <div class="avatar"></div>
+    </div>
+
+
+        <div class="mikami-picture">
+        <div class="galeri">
+        <img src="https://i.pinimg.com/736x/52/c2/66/52c266aeb25a82d435dc3a6d848ab283.jpg" alt="Infa" class="mikami-picture">
+        <a href="https://deathnote.fandom.com/ru/wiki/Тэру_Миками" class="btn">Подробнее</a>
+    
+</div>
+    
+
+
+        
+    <div class="Infa1">
+      <div class="bloc1">             
+        <p>1) Тэру Миками, 24 года. Прокурор, ставший вторым Кирой и публичным «Голосом Киры». Самый фанатичный последователь Ягами Лайта.</p>
+            </div>
+        </div>
+
+    <div class="Infa2">  
+     <div class="bloc2">             
+        <p>2)Молодой мужчина аскетичного вида: темные волосы зачесаны назад (прядь спадает на лицо), очки, всегда в строгом костюме. Сочетает высокий интеллект и педантичность прокурорской работы с глубокой психической неустойчивостью и беспощадностью.</p>
+            </div>
+    </div>
+
+    <div class="Infa3">  
+     <div class="bloc3">             
+        <p>3)Был выбран синигами Рем как новый исполнитель, когда Лайт отказался от Тетради. С фанатизмом продолжил «дело» Киры. Лайт использовал его как ключевую фигуру в финальном плане против Near. Самостоятельные действия и фанатизм Миками привели к провалу плана и гибели обоих.</p>
+      </div>
+    </div>
+
+     <div class="Infa4">  
+     <div class="bloc4">             
+        <p>4)Фанатик с черно-белым чувством справедливости. Его ритуалы с Тетрадью и контраст между внешностью профессионала и истеричным поведением подчеркивают одержимость. Трагическая фигура слепой веры: идеальное орудие, которое в итоге разрушило своего «бога».</p>
+      </div>
+    </div>
+
+
+    <div id="yagami-page2" class="page2"></div>
+        <div class="Yagami">
+            <h1 class="text3">Yagami Light</h1>
+        </div>
+
+        <div class="Yagami-picture">
+        <div class="galeri">
+        <img src="https://i.pinimg.com/736x/81/b4/0b/81b40b5457325760b268b81b44d7367b.jpg" alt="Infa" class="Yagami-picture">
+        <a href="https://deathnote.fandom.com/ru/wiki/Лайт_Ягами" class="btn">Подробнее</a>
+</div>
+
+        
+    <div class="Infa5">
+      <div class="bloc5">             
+        <p>1) Ягами Лайт, 17-23 года (по ходу сюжета). Гениальный старшеклассник, ставший Кирой — богом нового мира. Сын начальника полиции, отличник с идеальным будущим.</p>
+            </div>
+        </div>
+
+    <div class="Infa6">  
+     <div class="bloc6">             
+        <p>2)Харизматичный юноша с аккуратными каштановыми волосами и выразительными карими глазами. Одевается в школьную форму или классическую одежду. Сочетает невероятный интеллект, стратегическое мышление и харизму лидера с нарциссизмом, манипулятивностью и мессианским комплексом.</p>
+            </div>
+    </div>
+
+    <div class="Infa7">  
+     <div class="bloc7">             
+        <p>3)Найдя Тетрадь смерти, решает «очистить» мир от преступников, становясь Кирой. Вступает в интеллектуальную дуэль с детективом L, затем с его преемниками Mello и Near. Манипулирует окружающими, включая отца и Мику Амане, для достижения цели. Его план терпит крах из-за чрезмерной уверенности и ошибки Миками.</p>
+      </div>
+    </div>
+
+     <div class="Infa8">  
+     <div class="bloc8">             
+        <p>4)Идеалист, превратившийся в тирана. Начал с благой цели, но был развращен властью Тетради и собственной гордыней. Его трагедия — в неспособности признать собственную порочность, маскируя жажду власти под благородные намерения. Символ опасности абсолютной власти в руках того, кто считает себя непогрешимым судьёй.</p>
+      </div>
+    </div>
+  
+    <div id="riyugi-page3" class="page3">
+    <div class="Riyugi">
+        <h1 class="text4">L</h1>
+    </div>
+
+    <div class="Riyugi-picture">
+        <div class="galeri">
+            <img src="https://i.pinimg.com/736x/9d/56/b1/9d56b161747193f5b8afba9d470a4d22.jpg" alt="L" class="Riyugi-picture">
+            <a href="https://deathnote.fandom.com/ru/wiki/L_(персонаж)" class="btn">Подробнее</a>
+        </div>
+    </div>
+
+    <div class="Infa9">
+        <div class="bloc9">             
+            <p>1) L (Эл), настоящее имя неизвестно. Ведущий детектив мира, известный как "L", "Рюдзаки", "Эралд Койл". Гениальный сыщик, расследующий дело Киры.</p>
+        </div>
+    </div>
+
+    <div class="Infa10">  
+        <div class="bloc10">             
+            <p>2)Молодой человек неопределенного возраста с характерной внешностью: растрепанные черные волосы, темные мешки под глазами, бледная кожа. Почти всегда ходит босиком, сидит на корточках, ест сладости. Сочетает детскую непосредственность с гениальным аналитическим умом.</p>
+        </div>
+    </div>
+
+    <div class="Infa11">  
+        <div class="bloc11">             
+            <p>3)Возглавляет расследование дела Киры, первым установив, что Кира обладает сверхъестественными способностями. Вступает в психологическую дуэль с Ягами Лайтом, подозревая его с самого начала. Притворяется студентом Тойоты Отохой, чтобы наблюдать за Лайтом вблизи. Погибает от руки Рем, защищая Лайта.</p>
+        </div>
+    </div>
+
+    <div class="Infa12">  
+        <div class="bloc12">             
+            <p>4)Одинокий гений, живущий ради разгадки головоломок. Его эксцентричное поведение — защитный механизм от мира. Трагический персонаж, который нашел равного себе соперника в Лайте, но стал жертвой его манипуляций. Символ чистого интеллекта, противостоящего лицемерной морали.</p>
+        </div>
+    </div>
+</div>
+
+<div id="n-page4" class="page4">
+    <div class="Near">
+        <h1 class="text5">Near</h1>
+    </div>
+
+    <div class="Near-picture">
+        <div class="galeri">
+            <img src="https://i.pinimg.com/736x/9f/63/5d/9f635d004fa3da430a332f5d53c8f1e7.jpg" alt="Near" class="Near-picture">
+            <a href="https://deathnote.fandom.com/ru/wiki/Ниа" class="btn">Подробнее</a>
+        </div>
+    </div>
+
+    <div class="Infa13">
+        <div class="bloc13">             
+            <p>1) Near (Найер), настоящее имя Нейт Ривер. Приемник L, один из двух преемников детектива (вместе с Mello). Гениальный подросток, завершивший расследование дела Киры.</p>
+        </div>
+    </div>
+
+    <div class="Infa14">  
+        <div class="bloc14">             
+            <p>2)Хрупкий юноша с белыми волосами и бледной кожей, всегда в белой пижаме. Практически не проявляет эмоций, говорит монотонно. Предпочитает работать с игрушками и пазлами, которые помогают ему мыслить. Интеллектуальный клон L, но более холодный и расчетливый.</p>
+        </div>
+    </div>
+
+    <div class="Infa15">  
+        <div class="bloc15">             
+            <p>3)После смерти L берется за дело Киры, используя системный подход. Работает с Тайной Полицией. Разрабатывает план по разоблачению Лайта, используя Миками как слабое звено. Его методичный, неэмоциональный подход контрастирует с импульсивностью Mello, что в итоге приводит к успеху.</p>
+        </div>
+    </div>
+
+    <div class="Infa16">  
+        <div class="bloc16">             
+            <p>4)Холодный аналитик, следующий логике, а не интуиции. Его победа над Лайтом — триумф метода над харизмой. Символ нового поколения детективов: без эмоций, амбиций и иллюзий, только чистый анализ. Становится новым L, но остается таким же одиноким, как и его предшественник.</p>
+        </div>
+    </div>
+</div>
+
+<div id="Onas_page5" class="page5">
+    <div class="Onas">
+        <h1 class="text5">О нас </h1>
+    </div>
+  
+     <div class="Infa17">
+        <div class="bloc17">             
+            <p>Архив Персонажей — это база данных, где собраны вымышленные герои из фильмов, сериалов, игр, аниме и книг. Здесь вы можете найти любого персонажа, узнать его историю, связи и особенности. Просто введите имя — и исследуйте мир за его пределами. Персонаж, которого вы ищете, уже здесь.</p>
+        </div>
+    </div>
+
+    <div class="Infa18">
+        <div class="bloc18">           
+        <a class="a5" href="#mikami-page">Обратно</a>
+        </div>
+    </div>
+
+    <div class="Infa19">
+        <div class="bloc19"> 
+             <h3 class="text6">Наши Контакты</h3>
+
+            <div class="partner">
+                <div>892871559</div>
+                <a class="a6" href="https://www.tiktok.com/">Tik-Tok</a>
+                <a class="a7" href="http://www.facebook.fr/">Facebook</a>
+            </div>
+
+
+stule.css
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6f6f6f;
+}
+
+.mikami {
+    position: absolute;
+    background-color: #555555;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
+
+.mikami a:hover {
+        color: #6e1212;
+}
+
+h1 {
+    position: absolute;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+h2 {
+    position: absolute;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.a1{
+    position: absolute;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.a2{
+    position: absolute;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-left: 260px;
+    margin-top: 25px;
+}
+
+.a3{
+    position: absolute;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-left: 310px;
+    margin-top: 25px;
+}
+
+.a4{
+    position: absolute;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-left: 650px;
+    margin-top: 25px;
+}
+
+.a8{
+    position: absolute;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-left: 425px;
+    margin-top: 25px;
+}
+
+
+
+
+
+.avatar{
+    margin-top: -60px;
+    background-image: url(https://i.pinimg.com/736x/31/fe/16/31fe1663f2c368d227197915670433a1.jpg);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border: 2px solid wheat;
+    border-radius: 35px;
+    margin-left: 94%;
+}
+
+.menu{
+    position: absolute;
+    margin-left: 80%;
+}
+
+.search{
+    background-color: aliceblue;
+    width: 320px;
+    height: 50px;
+    border: 2px solid #595c6a;
+    border-radius: 20px;
+    margin-left: 22%;
+    margin-top: 15px;
+}
+
+
+.mikami-picture{
+    position: absolute;
+    margin-top: 90px;
+    width: 60%;
+    height: 800px;
+    text-align:left;
+}
+
+
+.btn{
+    position: absolute;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 900px;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:fixeds ;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+
+
+.Infa1{
+    position:absolute ;
+    display: flex;
+    margin-top: 90px; 
+    margin-left: 550px;
+    gap: 2rem;
+}
+
+.bloc1{
+    background-color: #7d0909;
+    width: 400px;
+    height: 200px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+
+.Infa2{
+    position:absolute ;
+    display: flex;
+    margin-top: 90px; 
+    margin-left: 1000px;
+    gap: 2rem;
+}
+
+.bloc2{
+    background-color: #7d0909;
+    width: 420px;
+    height: 310px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.Infa3{
+    position:absolute ;
+    display: flex;
+    margin-top: 330px; 
+    margin-left: 550px;
+    gap: 2rem;
+}
+
+.bloc3{
+    background-color: #7d0909;
+    width: 420px;
+    height: 350px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.Infa4{
+    position:absolute ;
+    display: flex;
+    margin-top: 440px; 
+    margin-left: 1000px;
+    gap: 2rem;
+}
+
+.bloc4{
+    background-color: #7d0909;
+    width: 420px;
+    height: 350px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.page2 {
+    margin-top: 1000px; 
+    position: relative;
+    min-height: 100vh;
+}
+.Yagami{
+    position: absolute;
+    background-color: #555555;
+    width: 180%;
+    height: 100px;
+    margin-top: -850px;
+}
+.Yagami a:hover {
+        color: #6e1212;
+    }
+
+.text3 {
+    position: absolute;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.Yagami-picture{
+    position: absolute;
+    margin-top: -350px;
+    width: 75%;
+    height: 800px;
+    text-align:left;
+}
+
+.Infa5 {
+    position: absolute;
+    display: flex;
+    margin-top: -350px;
+    margin-left: 550px;
+    gap: 2rem;
+}
+
+.bloc5{
+    
+    background-color: #7d0909;
+    width: 400px;
+    height: 260px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+ 
+
+.Infa6 {
+    position: absolute;
+    display: flex;
+    margin-top: -350px;
+    margin-left: 1000px;
+    gap: 2rem;
+}
+
+.bloc6{
+    
+    background-color: #7d0909;
+    width: 420px;
+    height: 370px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.Infa7 {
+    position: absolute;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 550px;
+    gap: 2rem;
+}
+
+.bloc7{
+    
+    background-color: #7d0909;
+    width: 420px;
+    height: 380px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.Infa8 {
+    position: absolute;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 1000px;
+    gap: 2rem;
+}
+
+.bloc8{
+    
+    background-color: #7d0909;
+    width: 420px;
+    height: 390px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.page3 {
+    margin-top: 500px; 
+    position: relative;
+    min-height: 100vh;
+}
+.Riyugi{
+    position: absolute;
+    background-color: #555555;
+    width: 250%;
+    height: 100px;
+    margin-top: -10px;
+}
+
+
+.text4 {
+    position: absolute;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.Riyugi-picture{
+    position: absolute;
+    margin-top: 70px;
+    width: 87%;
+    height: 800px;
+    text-align:left;
+}
+
+.Infa9 {
+    position: absolute;
+    display: flex;
+    margin-top: 145px;
+    margin-left: 550px;
+    gap: 2rem;
+}
+
+.bloc9{
+    
+    background-color: #7d0909;
+    width: 400px;
+    height: 260px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+ 
+
+.Infa10 {
+    position: absolute;
+    display: flex;
+    margin-top: 145px;
+    margin-left: 1000px;
+    gap: 2rem;
+}
+
+.bloc10{
+    
+    background-color: #7d0909;
+    width: 420px;
+    height: 400px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.Infa11 {
+    position: absolute;
+    display: flex;
+    margin-top: 430px;
+    margin-left: 550px;
+    gap: 2rem;
+}
+
+.bloc11{
+    
+    background-color: #7d0909;
+    width: 420px;
+    height: 380px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.Infa12 {
+    position: absolute;
+    display: flex;
+    margin-top: 580px;
+    margin-left: 1000px;
+    gap: 2rem;
+}
+
+.bloc12{
+    
+    background-color: #7d0909;
+    width: 420px;
+    height: 350px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.page4 {
+    margin-top: 230px; 
+    position: relative;
+    min-height: 100vh;
+}
+.Near{
+    position: absolute;
+    background-color: #555555;
+    width: 250%;
+    height: 100px;
+    margin-top: -10px;
+}
+
+
+.text5 {
+    position: absolute;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.Near-picture{
+    position: absolute;
+    margin-top: 70px;
+    width: 87%;
+    height: 800px;
+    text-align:left;
+}
+
+.Infa13 {
+    position: absolute;
+    display: flex;
+    margin-top: 145px;
+    margin-left: 550px;
+    gap: 2rem;
+}
+
+.bloc13{
+    
+    background-color: #7d0909;
+    width: 400px;
+    height: 260px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+ 
+
+.Infa14 {
+    position: absolute;
+    display: flex;
+    margin-top: 145px;
+    margin-left: 1000px;
+    gap: 2rem;
+}
+
+.bloc14{
+    
+    background-color: #7d0909;
+    width: 420px;
+    height: 340px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.Infa15 {
+    position: absolute;
+    display: flex;
+    margin-top: 440px;
+    margin-left: 550px;
+    gap: 2rem;
+}
+
+.bloc15{
+    
+    background-color: #7d0909;
+    width: 420px;
+    height: 380px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.Infa16 {
+    position: absolute;
+    display: flex;
+    margin-top: 530px;
+    margin-left: 1000px;
+    gap: 2rem;
+}
+
+.bloc16{
+    
+    background-color: #7d0909;
+    width: 420px;
+    height: 370px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.page5 {
+    margin-top: 200px; 
+    position: relative;
+    min-height: 50vh;
+}
+.Onas{
+    position: absolute;
+    background-color: #555555;
+    width: 250%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.Infa17 {
+    position: absolute;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 30px;
+    gap: 2rem;
+}
+
+.bloc17{
+    
+    background-color: #7d0909;
+    width: 570px;
+    height: 260px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.Infa18 {
+    position: absolute;
+    display: flex;
+    margin-top: 400px;
+    margin-left: 30px;
+    gap: 2rem;
+}
+
+.bloc18{
+    
+    background-color: #7d0909;
+    width: 250px;
+    height: 100px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+.a5{
+    position: absolute;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.Infa19 {
+    position: absolute;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 650px;
+    gap: 2rem;
+}
+
+.bloc19{
+    
+    background-color: #7d0909;
+    width: 250px;
+    height: 220px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.text6{
+    position: absolute;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.partner {
+    color: white;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 30px
+}
+
+.partner-logo {
+    display: block;
+    margin: 5px 0;
+}
